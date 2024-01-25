@@ -1,0 +1,214 @@
+[2023-08-15 14:45:10] [ ERROR] [PacienteDAOImpl:48] No fue posible crear el pacientePaciente{id=1, nombre='Pedro', apellido='Cortez', domicilio='carrera 25', fechaAlta=2023-01-02}
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column count does not match; SQL statement:
+INSERT INTO PACIENTES VALUES(?,?,?,?); [21002-220]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.dml.Insert.doPrepare(Insert.java:295)
+	at org.h2.command.dml.DataChangeStatement.prepare(DataChangeStatement.java:37)
+	at org.h2.command.Parser.prepareCommand(Parser.java:583)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:634)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:288)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:191)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.engine.SessionRemote.readException(SessionRemote.java:637)
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:606)
+	at org.h2.command.CommandRemote.prepare(CommandRemote.java:78)
+	at org.h2.command.CommandRemote.<init>(CommandRemote.java:50)
+	at org.h2.engine.SessionRemote.prepareCommand(SessionRemote.java:480)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:92)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:288)
+	at DAOs.Impl.PacienteDAOImpl.registrarPaciente(PacienteDAOImpl.java:38)
+	at Servicios.ServicioPaciente.registrarPaciente(ServicioPaciente.java:25)
+	at Main.main(Main.java:39)
+[2023-08-15 14:45:10] [ ERROR] [ServicioPaciente:27] Hay un error
+java.lang.Exception: Sucedio un error al crear el paciente
+	at DAOs.Impl.PacienteDAOImpl.registrarPaciente(PacienteDAOImpl.java:49)
+	at Servicios.ServicioPaciente.registrarPaciente(ServicioPaciente.java:25)
+	at Main.main(Main.java:39)
+[2023-08-15 14:45:10] [ ERROR] [PacienteDAOImpl:48] No fue posible crear el pacientePaciente{id=2, nombre='Juan', apellido='Lorenz', domicilio='carrera 81', fechaAlta=2023-06-06}
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column count does not match; SQL statement:
+INSERT INTO PACIENTES VALUES(?,?,?,?); [21002-220]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.dml.Insert.doPrepare(Insert.java:295)
+	at org.h2.command.dml.DataChangeStatement.prepare(DataChangeStatement.java:37)
+	at org.h2.command.Parser.prepareCommand(Parser.java:583)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:634)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:288)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:191)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.engine.SessionRemote.readException(SessionRemote.java:637)
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:606)
+	at org.h2.command.CommandRemote.prepare(CommandRemote.java:78)
+	at org.h2.command.CommandRemote.<init>(CommandRemote.java:50)
+	at org.h2.engine.SessionRemote.prepareCommand(SessionRemote.java:480)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:92)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:288)
+	at DAOs.Impl.PacienteDAOImpl.registrarPaciente(PacienteDAOImpl.java:38)
+	at Servicios.ServicioPaciente.registrarPaciente(ServicioPaciente.java:25)
+	at Main.main(Main.java:40)
+[2023-08-15 14:45:10] [ ERROR] [ServicioPaciente:27] Hay un error
+java.lang.Exception: Sucedio un error al crear el paciente
+	at DAOs.Impl.PacienteDAOImpl.registrarPaciente(PacienteDAOImpl.java:49)
+	at Servicios.ServicioPaciente.registrarPaciente(ServicioPaciente.java:25)
+	at Main.main(Main.java:40)
+[2023-08-15 14:45:10] [ ERROR] [PacienteDAOImpl:48] No fue posible crear el pacientePaciente{id=3, nombre='Fabio', apellido='Mendoza', domicilio='carrera 52', fechaAlta=2023-07-10}
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column count does not match; SQL statement:
+INSERT INTO PACIENTES VALUES(?,?,?,?); [21002-220]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.dml.Insert.doPrepare(Insert.java:295)
+	at org.h2.command.dml.DataChangeStatement.prepare(DataChangeStatement.java:37)
+	at org.h2.command.Parser.prepareCommand(Parser.java:583)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:634)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:288)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:191)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.engine.SessionRemote.readException(SessionRemote.java:637)
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:606)
+	at org.h2.command.CommandRemote.prepare(CommandRemote.java:78)
+	at org.h2.command.CommandRemote.<init>(CommandRemote.java:50)
+	at org.h2.engine.SessionRemote.prepareCommand(SessionRemote.java:480)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:92)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:288)
+	at DAOs.Impl.PacienteDAOImpl.registrarPaciente(PacienteDAOImpl.java:38)
+	at Servicios.ServicioPaciente.registrarPaciente(ServicioPaciente.java:25)
+	at Main.main(Main.java:41)
+[2023-08-15 14:45:10] [ ERROR] [ServicioPaciente:27] Hay un error
+java.lang.Exception: Sucedio un error al crear el paciente
+	at DAOs.Impl.PacienteDAOImpl.registrarPaciente(PacienteDAOImpl.java:49)
+	at Servicios.ServicioPaciente.registrarPaciente(ServicioPaciente.java:25)
+	at Main.main(Main.java:41)
+[2023-08-15 14:45:10] [ ERROR] [PacienteDAOImpl:48] No fue posible crear el pacientePaciente{id=4, nombre='Enrique', apellido='Manrique', domicilio='carrera 01', fechaAlta=2023-07-10}
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column count does not match; SQL statement:
+INSERT INTO PACIENTES VALUES(?,?,?,?); [21002-220]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.dml.Insert.doPrepare(Insert.java:295)
+	at org.h2.command.dml.DataChangeStatement.prepare(DataChangeStatement.java:37)
+	at org.h2.command.Parser.prepareCommand(Parser.java:583)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:634)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:288)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:191)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.engine.SessionRemote.readException(SessionRemote.java:637)
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:606)
+	at org.h2.command.CommandRemote.prepare(CommandRemote.java:78)
+	at org.h2.command.CommandRemote.<init>(CommandRemote.java:50)
+	at org.h2.engine.SessionRemote.prepareCommand(SessionRemote.java:480)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:92)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:288)
+	at DAOs.Impl.PacienteDAOImpl.registrarPaciente(PacienteDAOImpl.java:38)
+	at Servicios.ServicioPaciente.registrarPaciente(ServicioPaciente.java:25)
+	at Main.main(Main.java:42)
+[2023-08-15 14:45:10] [ ERROR] [ServicioPaciente:27] Hay un error
+java.lang.Exception: Sucedio un error al crear el paciente
+	at DAOs.Impl.PacienteDAOImpl.registrarPaciente(PacienteDAOImpl.java:49)
+	at Servicios.ServicioPaciente.registrarPaciente(ServicioPaciente.java:25)
+	at Main.main(Main.java:42)
+[2023-08-15 14:46:11] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=1, nombre='Pedro', apellido='Cortez', domicilio='carrera 25', fechaAlta=2023-01-02}
+[2023-08-15 14:46:11] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=2, nombre='Juan', apellido='Lorenz', domicilio='carrera 81', fechaAlta=2023-06-06}
+[2023-08-15 14:46:11] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=3, nombre='Fabio', apellido='Mendoza', domicilio='carrera 52', fechaAlta=2023-07-10}
+[2023-08-15 14:46:11] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=4, nombre='Enrique', apellido='Manrique', domicilio='carrera 01', fechaAlta=2023-08-16}
+[2023-08-15 14:46:11] [ INFO ] [PacienteDAOImpl:58] ID paciente 1 Nombre Pedro Apellido Cortez domicilio carrera 25 fecha de alta 2023-01-02
+[2023-08-15 14:46:11] [ INFO ] [PacienteDAOImpl:58] ID paciente 2 Nombre Juan Apellido Lorenz domicilio carrera 81 fecha de alta 2023-06-06
+[2023-08-15 14:46:11] [ INFO ] [PacienteDAOImpl:58] ID paciente 3 Nombre Fabio Apellido Mendoza domicilio carrera 52 fecha de alta 2023-07-10
+[2023-08-15 14:46:11] [ INFO ] [PacienteDAOImpl:58] ID paciente 4 Nombre Enrique Apellido Manrique domicilio carrera 01 fecha de alta 2023-08-16
+[2023-08-15 14:47:20] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=1, nombre='Pedro', apellido='Cortez', domicilio='carrera 25', fechaAlta=2023-01-02}
+[2023-08-15 14:47:20] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=2, nombre='Juan', apellido='Lorenz', domicilio='carrera 81', fechaAlta=2023-06-06}
+[2023-08-15 14:47:20] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=3, nombre='Fabio', apellido='Mendoza', domicilio='carrera 52', fechaAlta=2023-07-10}
+[2023-08-15 14:47:20] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=4, nombre='Enrique', apellido='Manrique', domicilio='carrera 01', fechaAlta=2023-08-16}
+[2023-08-15 14:47:20] [ INFO ] [PacienteDAOImpl:58] ID paciente 1 Nombre Pedro Apellido Cortez domicilio carrera 25 fecha de alta 2023-01-02
+[2023-08-15 14:47:20] [ INFO ] [PacienteDAOImpl:58] ID paciente 2 Nombre Juan Apellido Lorenz domicilio carrera 81 fecha de alta 2023-06-06
+[2023-08-15 14:47:20] [ INFO ] [PacienteDAOImpl:58] ID paciente 3 Nombre Fabio Apellido Mendoza domicilio carrera 52 fecha de alta 2023-07-10
+[2023-08-15 14:47:20] [ INFO ] [PacienteDAOImpl:58] ID paciente 4 Nombre Enrique Apellido Manrique domicilio carrera 01 fecha de alta 2023-08-16
+[2023-08-15 14:47:20] [ INFO ] [PacienteDAOImpl:74] Se moficaron los datos del paciente con id: 1
+[2023-08-15 14:47:20] [ INFO ] [PacienteDAOImpl:58] ID paciente 1 Nombre Laura Apellido Gomez domicilio Calle 28 fecha de alta 2023-07-10
+[2023-08-15 14:47:20] [ INFO ] [PacienteDAOImpl:58] ID paciente 2 Nombre Juan Apellido Lorenz domicilio carrera 81 fecha de alta 2023-06-06
+[2023-08-15 14:47:20] [ INFO ] [PacienteDAOImpl:58] ID paciente 3 Nombre Fabio Apellido Mendoza domicilio carrera 52 fecha de alta 2023-07-10
+[2023-08-15 14:47:20] [ INFO ] [PacienteDAOImpl:58] ID paciente 4 Nombre Enrique Apellido Manrique domicilio carrera 01 fecha de alta 2023-08-16
+[2023-08-15 14:47:59] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=1, nombre='Pedro', apellido='Cortez', domicilio='carrera 25', fechaAlta=2023-01-02}
+[2023-08-15 14:47:59] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=2, nombre='Juan', apellido='Lorenz', domicilio='carrera 81', fechaAlta=2023-06-06}
+[2023-08-15 14:47:59] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=3, nombre='Fabio', apellido='Mendoza', domicilio='carrera 52', fechaAlta=2023-07-10}
+[2023-08-15 14:47:59] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=4, nombre='Enrique', apellido='Manrique', domicilio='carrera 01', fechaAlta=2023-08-16}
+[2023-08-15 14:47:59] [ INFO ] [PacienteDAOImpl:58] ID paciente 1 Nombre Pedro Apellido Cortez domicilio carrera 25 fecha de alta 2023-01-02
+[2023-08-15 14:47:59] [ INFO ] [PacienteDAOImpl:58] ID paciente 2 Nombre Juan Apellido Lorenz domicilio carrera 81 fecha de alta 2023-06-06
+[2023-08-15 14:47:59] [ INFO ] [PacienteDAOImpl:58] ID paciente 3 Nombre Fabio Apellido Mendoza domicilio carrera 52 fecha de alta 2023-07-10
+[2023-08-15 14:47:59] [ INFO ] [PacienteDAOImpl:58] ID paciente 4 Nombre Enrique Apellido Manrique domicilio carrera 01 fecha de alta 2023-08-16
+[2023-08-15 14:47:59] [ INFO ] [PacienteDAOImpl:74] Se moficaron los datos del paciente con id: 1
+[2023-08-15 14:47:59] [ INFO ] [PacienteDAOImpl:58] ID paciente 1 Nombre Laura Apellido Gomez domicilio Calle 28 fecha de alta 2023-07-10
+[2023-08-15 14:47:59] [ INFO ] [PacienteDAOImpl:58] ID paciente 2 Nombre Juan Apellido Lorenz domicilio carrera 81 fecha de alta 2023-06-06
+[2023-08-15 14:47:59] [ INFO ] [PacienteDAOImpl:58] ID paciente 3 Nombre Fabio Apellido Mendoza domicilio carrera 52 fecha de alta 2023-07-10
+[2023-08-15 14:47:59] [ INFO ] [PacienteDAOImpl:58] ID paciente 4 Nombre Enrique Apellido Manrique domicilio carrera 01 fecha de alta 2023-08-16
+[2023-08-15 14:47:59] [ INFO ] [PacienteDAOImpl:87] Se elimino el paciente con id: 2
+[2023-08-15 14:47:59] [ INFO ] [PacienteDAOImpl:58] ID paciente 1 Nombre Laura Apellido Gomez domicilio Calle 28 fecha de alta 2023-07-10
+[2023-08-15 14:47:59] [ INFO ] [PacienteDAOImpl:58] ID paciente 3 Nombre Fabio Apellido Mendoza domicilio carrera 52 fecha de alta 2023-07-10
+[2023-08-15 14:47:59] [ INFO ] [PacienteDAOImpl:58] ID paciente 4 Nombre Enrique Apellido Manrique domicilio carrera 01 fecha de alta 2023-08-16
+[2023-08-15 14:52:08] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=1, nombre='Pedro', apellido='Cortez', domicilio='carrera 25', fechaAlta=2023-01-02}
+[2023-08-15 14:52:58] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=1, nombre='Pedro', apellido='Cortez', domicilio='carrera 25', fechaAlta=2023-01-02}
+[2023-08-15 14:52:58] [ INFO ] [PacienteDAOImpl:58] ID paciente 1 Nombre Pedro Apellido Cortez domicilio carrera 25 fecha de alta 2023-01-02
+[2023-08-15 14:54:18] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=1, nombre='Pedro', apellido='Cortez', domicilio='carrera 25', fechaAlta=2023-01-02}
+[2023-08-15 14:54:18] [ INFO ] [PacienteDAOImpl:74] Se moficaron los datos del paciente con id: 1
+[2023-08-15 14:54:50] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=1, nombre='Pedro', apellido='Cortez', domicilio='carrera 25', fechaAlta=2023-01-02}
+[2023-08-15 14:54:50] [ INFO ] [PacienteDAOImpl:87] Se elimino el paciente con id: 1
+[2023-08-21 14:57:46] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=1, nombre='Pedro', apellido='Cortez', domicilio='carrera 25', fechaAlta=2023-01-02}
+[2023-08-21 14:57:46] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=2, nombre='Juan', apellido='Lorenz', domicilio='carrera 81', fechaAlta=2023-06-06}
+[2023-08-21 14:57:46] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=3, nombre='Fabio', apellido='Mendoza', domicilio='carrera 52', fechaAlta=2023-07-10}
+[2023-08-21 14:57:46] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=4, nombre='Enrique', apellido='Manrique', domicilio='carrera 01', fechaAlta=2023-08-16}
+[2023-08-21 14:57:46] [ INFO ] [PacienteDAOImpl:58] ID paciente 1 Nombre Pedro Apellido Cortez domicilio carrera 25 fecha de alta 2023-01-02
+[2023-08-21 14:57:46] [ INFO ] [PacienteDAOImpl:58] ID paciente 2 Nombre Juan Apellido Lorenz domicilio carrera 81 fecha de alta 2023-06-06
+[2023-08-21 14:57:46] [ INFO ] [PacienteDAOImpl:58] ID paciente 3 Nombre Fabio Apellido Mendoza domicilio carrera 52 fecha de alta 2023-07-10
+[2023-08-21 14:57:46] [ INFO ] [PacienteDAOImpl:58] ID paciente 4 Nombre Enrique Apellido Manrique domicilio carrera 01 fecha de alta 2023-08-16
+[2023-08-21 14:57:46] [ INFO ] [PacienteDAOImpl:74] Se moficaron los datos del paciente con id: 1
+[2023-08-21 14:57:46] [ INFO ] [PacienteDAOImpl:58] ID paciente 1 Nombre Lauren Apellido Madrigal domicilio carrera 112 fecha de alta 2023-01-02
+[2023-08-21 14:57:46] [ INFO ] [PacienteDAOImpl:58] ID paciente 2 Nombre Juan Apellido Lorenz domicilio carrera 81 fecha de alta 2023-06-06
+[2023-08-21 14:57:46] [ INFO ] [PacienteDAOImpl:58] ID paciente 3 Nombre Fabio Apellido Mendoza domicilio carrera 52 fecha de alta 2023-07-10
+[2023-08-21 14:57:46] [ INFO ] [PacienteDAOImpl:58] ID paciente 4 Nombre Enrique Apellido Manrique domicilio carrera 01 fecha de alta 2023-08-16
+[2023-08-21 14:57:46] [ INFO ] [PacienteDAOImpl:87] Se elimino el paciente con id: 2
+[2023-08-21 14:57:46] [ INFO ] [PacienteDAOImpl:58] ID paciente 1 Nombre Lauren Apellido Madrigal domicilio carrera 112 fecha de alta 2023-01-02
+[2023-08-21 14:57:46] [ INFO ] [PacienteDAOImpl:58] ID paciente 3 Nombre Fabio Apellido Mendoza domicilio carrera 52 fecha de alta 2023-07-10
+[2023-08-21 14:57:46] [ INFO ] [PacienteDAOImpl:58] ID paciente 4 Nombre Enrique Apellido Manrique domicilio carrera 01 fecha de alta 2023-08-16
+[2023-08-21 14:57:58] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=1, nombre='Pedro', apellido='Cortez', domicilio='carrera 25', fechaAlta=2023-01-02}
+[2023-08-21 14:57:58] [ INFO ] [PacienteDAOImpl:74] Se moficaron los datos del paciente con id: 1
+[2023-08-21 15:04:35] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=1, nombre='Pedro', apellido='Cortez', domicilio='carrera 25', fechaAlta=2023-01-02}
+[2023-08-21 15:04:35] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=2, nombre='Juan', apellido='Lorenz', domicilio='carrera 81', fechaAlta=2023-06-06}
+[2023-08-21 15:04:35] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=3, nombre='Fabio', apellido='Mendoza', domicilio='carrera 52', fechaAlta=2023-07-10}
+[2023-08-21 15:04:35] [ INFO ] [PacienteDAOImpl:45] Se creo un pacientePaciente{id=4, nombre='Enrique', apellido='Manrique', domicilio='carrera 01', fechaAlta=2023-08-16}
+[2023-08-21 15:04:35] [ INFO ] [PacienteDAOImpl:58] ID paciente 1 Nombre Pedro Apellido Cortez domicilio carrera 25 fecha de alta 2023-01-02
+[2023-08-21 15:04:35] [ INFO ] [PacienteDAOImpl:58] ID paciente 2 Nombre Juan Apellido Lorenz domicilio carrera 81 fecha de alta 2023-06-06
+[2023-08-21 15:04:35] [ INFO ] [PacienteDAOImpl:58] ID paciente 3 Nombre Fabio Apellido Mendoza domicilio carrera 52 fecha de alta 2023-07-10
+[2023-08-21 15:04:35] [ INFO ] [PacienteDAOImpl:58] ID paciente 4 Nombre Enrique Apellido Manrique domicilio carrera 01 fecha de alta 2023-08-16
+[2023-08-21 15:04:35] [ INFO ] [PacienteDAOImpl:74] Se moficaron los datos del paciente con id: 1
+[2023-08-21 15:04:35] [ INFO ] [PacienteDAOImpl:58] ID paciente 1 Nombre Lauren Apellido Madrigal domicilio carrera 112 fecha de alta 2023-01-02
+[2023-08-21 15:04:35] [ INFO ] [PacienteDAOImpl:58] ID paciente 2 Nombre Juan Apellido Lorenz domicilio carrera 81 fecha de alta 2023-06-06
+[2023-08-21 15:04:35] [ INFO ] [PacienteDAOImpl:58] ID paciente 3 Nombre Fabio Apellido Mendoza domicilio carrera 52 fecha de alta 2023-07-10
+[2023-08-21 15:04:35] [ INFO ] [PacienteDAOImpl:58] ID paciente 4 Nombre Enrique Apellido Manrique domicilio carrera 01 fecha de alta 2023-08-16
+[2023-08-21 15:04:35] [ INFO ] [PacienteDAOImpl:87] Se elimino el paciente con id: 2
+[2023-08-21 15:04:35] [ INFO ] [PacienteDAOImpl:58] ID paciente 1 Nombre Lauren Apellido Madrigal domicilio carrera 112 fecha de alta 2023-01-02
+[2023-08-21 15:04:35] [ INFO ] [PacienteDAOImpl:58] ID paciente 3 Nombre Fabio Apellido Mendoza domicilio carrera 52 fecha de alta 2023-07-10
+[2023-08-21 15:04:35] [ INFO ] [PacienteDAOImpl:58] ID paciente 4 Nombre Enrique Apellido Manrique domicilio carrera 01 fecha de alta 2023-08-16
+[2023-08-21 15:04:35] [ INFO ] [Main:59] se encontro el paciente: Paciente{id=1, nombre='Lauren', apellido='Madrigal', domicilio='carrera 112', fechaAlta=2023-01-02}

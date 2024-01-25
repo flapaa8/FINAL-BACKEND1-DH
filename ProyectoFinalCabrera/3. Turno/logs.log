@@ -1,0 +1,258 @@
+[2023-08-17 12:02:35] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-17 12:02:35] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=2, idOdontologo=5, idPaciente=3, fechaHoraTurno=2023-12-30 13:00:00.0}
+[2023-08-17 12:02:35] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=3, idOdontologo=7, idPaciente=3, fechaHoraTurno=2023-11-21 11:30:00.0}
+[2023-08-17 12:03:18] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-17 12:03:18] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=2, idOdontologo=5, idPaciente=2, fechaHoraTurno=2023-12-30 13:00:00.0}
+[2023-08-17 12:03:18] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=3, idOdontologo=7, idPaciente=6, fechaHoraTurno=2023-11-21 11:30:00.0}
+[2023-08-17 12:04:34] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-17 12:04:34] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=2, idOdontologo=5, idPaciente=2, fechaHoraTurno=2023-12-30 13:00:00.0}
+[2023-08-17 12:04:34] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=3, idOdontologo=7, idPaciente=6, fechaHoraTurno=2023-11-21 11:30:00.0}
+[2023-08-17 12:04:34] [ ERROR] [TurnoDAOImpl:61] No fue posible listar los odontologos
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "TIMESTAMP to INTEGER" [22018-220]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:518)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.value.Value.getDataConversionError(Value.java:2573)
+	at org.h2.value.Value.convertToInt(Value.java:1627)
+	at org.h2.value.Value.getInt(Value.java:870)
+	at org.h2.jdbc.JdbcResultSet.getIntInternal(JdbcResultSet.java:348)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:319)
+	at DAOs.Impl.TurnoDAOImpl.listarTurnos(TurnoDAOImpl.java:58)
+	at Servicios.ServicioTurno.listarTurnos(ServicioTurno.java:34)
+	at Main.main(Main.java:43)
+[2023-08-17 12:05:54] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-17 12:05:54] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=2, idOdontologo=5, idPaciente=2, fechaHoraTurno=2023-12-30 13:00:00.0}
+[2023-08-17 12:05:54] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=3, idOdontologo=7, idPaciente=6, fechaHoraTurno=2023-11-21 11:30:00.0}
+[2023-08-17 12:05:54] [ INFO ] [TurnoDAOImpl:58] ID Turno 1 ID Odontologo 2 ID Paciente 3 Fecha y hora de la cita 2023-08-17 15:30:00.0
+[2023-08-17 12:05:54] [ INFO ] [TurnoDAOImpl:58] ID Turno 2 ID Odontologo 5 ID Paciente 2 Fecha y hora de la cita 2023-12-30 13:00:00.0
+[2023-08-17 12:05:54] [ INFO ] [TurnoDAOImpl:58] ID Turno 3 ID Odontologo 7 ID Paciente 6 Fecha y hora de la cita 2023-11-21 11:30:00.0
+[2023-08-17 12:17:02] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-17 12:17:02] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=2, idOdontologo=5, idPaciente=2, fechaHoraTurno=2023-12-30 13:00:00.0}
+[2023-08-17 12:17:02] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=3, idOdontologo=7, idPaciente=6, fechaHoraTurno=2023-11-21 11:30:00.0}
+[2023-08-17 12:17:02] [ INFO ] [TurnoDAOImpl:58] ID Turno 1 ID Odontologo 2 ID Paciente 3 Fecha y hora de la cita 2023-08-17 15:30:00.0
+[2023-08-17 12:17:02] [ INFO ] [TurnoDAOImpl:58] ID Turno 2 ID Odontologo 5 ID Paciente 2 Fecha y hora de la cita 2023-12-30 13:00:00.0
+[2023-08-17 12:17:02] [ INFO ] [TurnoDAOImpl:58] ID Turno 3 ID Odontologo 7 ID Paciente 6 Fecha y hora de la cita 2023-11-21 11:30:00.0
+[2023-08-17 12:17:02] [ ERROR] [TurnoDAOImpl:76] Se presentó error al modificar los datos 
+org.h2.jdbc.JdbcSQLDataException: Parameter "#1" is not set [90012-220]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:658)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.ParameterRemote.checkSet(ParameterRemote.java:48)
+	at org.h2.command.CommandRemote.checkParameters(CommandRemote.java:255)
+	at org.h2.command.CommandRemote.executeUpdate(CommandRemote.java:193)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:209)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:169)
+	at DAOs.Impl.TurnoDAOImpl.moficiarTurno(TurnoDAOImpl.java:73)
+	at Servicios.ServicioTurno.modificarTurno(ServicioTurno.java:43)
+	at Main.main(Main.java:47)
+[2023-08-17 12:17:02] [ ERROR] [ServicioTurno:45] Hay un error
+java.lang.Exception: Sucedio un error al modificar
+	at DAOs.Impl.TurnoDAOImpl.moficiarTurno(TurnoDAOImpl.java:77)
+	at Servicios.ServicioTurno.modificarTurno(ServicioTurno.java:43)
+	at Main.main(Main.java:47)
+[2023-08-17 12:17:02] [ INFO ] [TurnoDAOImpl:87] Se elimino el turno con id: 2
+[2023-08-17 12:17:39] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-17 12:17:39] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=2, idOdontologo=5, idPaciente=2, fechaHoraTurno=2023-12-30 13:00:00.0}
+[2023-08-17 12:17:39] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=3, idOdontologo=7, idPaciente=6, fechaHoraTurno=2023-11-21 11:30:00.0}
+[2023-08-17 12:17:39] [ INFO ] [TurnoDAOImpl:58] ID Turno 1 ID Odontologo 2 ID Paciente 3 Fecha y hora de la cita 2023-08-17 15:30:00.0
+[2023-08-17 12:17:39] [ INFO ] [TurnoDAOImpl:58] ID Turno 2 ID Odontologo 5 ID Paciente 2 Fecha y hora de la cita 2023-12-30 13:00:00.0
+[2023-08-17 12:17:39] [ INFO ] [TurnoDAOImpl:58] ID Turno 3 ID Odontologo 7 ID Paciente 6 Fecha y hora de la cita 2023-11-21 11:30:00.0
+[2023-08-17 12:17:39] [ ERROR] [TurnoDAOImpl:76] Se presentó error al modificar los datos 
+org.h2.jdbc.JdbcSQLDataException: Parameter "#1" is not set [90012-220]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:658)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.ParameterRemote.checkSet(ParameterRemote.java:48)
+	at org.h2.command.CommandRemote.checkParameters(CommandRemote.java:255)
+	at org.h2.command.CommandRemote.executeUpdate(CommandRemote.java:193)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:209)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:169)
+	at DAOs.Impl.TurnoDAOImpl.moficiarTurno(TurnoDAOImpl.java:73)
+	at Servicios.ServicioTurno.modificarTurno(ServicioTurno.java:43)
+	at Main.main(Main.java:47)
+[2023-08-17 12:17:39] [ ERROR] [ServicioTurno:45] Hay un error
+java.lang.Exception: Sucedio un error al modificar
+	at DAOs.Impl.TurnoDAOImpl.moficiarTurno(TurnoDAOImpl.java:77)
+	at Servicios.ServicioTurno.modificarTurno(ServicioTurno.java:43)
+	at Main.main(Main.java:47)
+[2023-08-17 12:19:01] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-17 12:19:01] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=2, idOdontologo=5, idPaciente=2, fechaHoraTurno=2023-12-30 13:00:00.0}
+[2023-08-17 12:19:01] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=3, idOdontologo=7, idPaciente=6, fechaHoraTurno=2023-11-21 11:30:00.0}
+[2023-08-17 12:19:01] [ INFO ] [TurnoDAOImpl:58] ID Turno 1 ID Odontologo 2 ID Paciente 3 Fecha y hora de la cita 2023-08-17 15:30:00.0
+[2023-08-17 12:19:01] [ INFO ] [TurnoDAOImpl:58] ID Turno 2 ID Odontologo 5 ID Paciente 2 Fecha y hora de la cita 2023-12-30 13:00:00.0
+[2023-08-17 12:19:01] [ INFO ] [TurnoDAOImpl:58] ID Turno 3 ID Odontologo 7 ID Paciente 6 Fecha y hora de la cita 2023-11-21 11:30:00.0
+[2023-08-17 12:19:16] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-17 12:19:16] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=2, idOdontologo=5, idPaciente=2, fechaHoraTurno=2023-12-30 13:00:00.0}
+[2023-08-17 12:19:16] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=3, idOdontologo=7, idPaciente=6, fechaHoraTurno=2023-11-21 11:30:00.0}
+[2023-08-17 12:19:16] [ INFO ] [TurnoDAOImpl:58] ID Turno 1 ID Odontologo 2 ID Paciente 3 Fecha y hora de la cita 2023-08-17 15:30:00.0
+[2023-08-17 12:19:16] [ INFO ] [TurnoDAOImpl:58] ID Turno 2 ID Odontologo 5 ID Paciente 2 Fecha y hora de la cita 2023-12-30 13:00:00.0
+[2023-08-17 12:19:16] [ INFO ] [TurnoDAOImpl:58] ID Turno 3 ID Odontologo 7 ID Paciente 6 Fecha y hora de la cita 2023-11-21 11:30:00.0
+[2023-08-17 12:19:16] [ ERROR] [TurnoDAOImpl:76] Se presentó error al modificar los datos 
+org.h2.jdbc.JdbcSQLDataException: Parameter "#1" is not set [90012-220]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:658)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.ParameterRemote.checkSet(ParameterRemote.java:48)
+	at org.h2.command.CommandRemote.checkParameters(CommandRemote.java:255)
+	at org.h2.command.CommandRemote.executeUpdate(CommandRemote.java:193)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:209)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:169)
+	at DAOs.Impl.TurnoDAOImpl.moficiarTurno(TurnoDAOImpl.java:73)
+	at Servicios.ServicioTurno.modificarTurno(ServicioTurno.java:43)
+	at Main.main(Main.java:47)
+[2023-08-17 12:19:16] [ ERROR] [ServicioTurno:45] Hay un error
+java.lang.Exception: Sucedio un error al modificar
+	at DAOs.Impl.TurnoDAOImpl.moficiarTurno(TurnoDAOImpl.java:77)
+	at Servicios.ServicioTurno.modificarTurno(ServicioTurno.java:43)
+	at Main.main(Main.java:47)
+[2023-08-17 12:20:52] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-17 12:20:52] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=2, idOdontologo=5, idPaciente=2, fechaHoraTurno=2023-12-30 13:00:00.0}
+[2023-08-17 12:20:52] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=3, idOdontologo=7, idPaciente=6, fechaHoraTurno=2023-11-21 11:30:00.0}
+[2023-08-17 12:20:52] [ INFO ] [TurnoDAOImpl:58] ID Turno 1 ID Odontologo 2 ID Paciente 3 Fecha y hora de la cita 2023-08-17 15:30:00.0
+[2023-08-17 12:20:52] [ INFO ] [TurnoDAOImpl:58] ID Turno 2 ID Odontologo 5 ID Paciente 2 Fecha y hora de la cita 2023-12-30 13:00:00.0
+[2023-08-17 12:20:52] [ INFO ] [TurnoDAOImpl:58] ID Turno 3 ID Odontologo 7 ID Paciente 6 Fecha y hora de la cita 2023-11-21 11:30:00.0
+[2023-08-17 12:20:52] [ ERROR] [TurnoDAOImpl:76] Se presentó error al modificar los datos 
+org.h2.jdbc.JdbcSQLDataException: Parameter "#1" is not set [90012-220]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:658)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.ParameterRemote.checkSet(ParameterRemote.java:48)
+	at org.h2.command.CommandRemote.checkParameters(CommandRemote.java:255)
+	at org.h2.command.CommandRemote.executeUpdate(CommandRemote.java:193)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:209)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:169)
+	at DAOs.Impl.TurnoDAOImpl.moficiarTurno(TurnoDAOImpl.java:73)
+	at Servicios.ServicioTurno.modificarTurno(ServicioTurno.java:43)
+	at Main.main(Main.java:47)
+[2023-08-17 12:20:52] [ ERROR] [ServicioTurno:45] Hay un error
+java.lang.Exception: Sucedio un error al modificar
+	at DAOs.Impl.TurnoDAOImpl.moficiarTurno(TurnoDAOImpl.java:77)
+	at Servicios.ServicioTurno.modificarTurno(ServicioTurno.java:43)
+	at Main.main(Main.java:47)
+[2023-08-17 12:22:08] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-17 12:22:08] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=2, idOdontologo=5, idPaciente=2, fechaHoraTurno=2023-12-30 13:00:00.0}
+[2023-08-17 12:22:08] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=3, idOdontologo=7, idPaciente=6, fechaHoraTurno=2023-11-21 11:30:00.0}
+[2023-08-17 12:22:08] [ INFO ] [TurnoDAOImpl:58] ID Turno 1 ID Odontologo 2 ID Paciente 3 Fecha y hora de la cita 2023-08-17 15:30:00.0
+[2023-08-17 12:22:08] [ INFO ] [TurnoDAOImpl:58] ID Turno 2 ID Odontologo 5 ID Paciente 2 Fecha y hora de la cita 2023-12-30 13:00:00.0
+[2023-08-17 12:22:08] [ INFO ] [TurnoDAOImpl:58] ID Turno 3 ID Odontologo 7 ID Paciente 6 Fecha y hora de la cita 2023-11-21 11:30:00.0
+[2023-08-17 12:22:08] [ ERROR] [TurnoDAOImpl:76] Se presentó error al modificar los datos 
+org.h2.jdbc.JdbcSQLDataException: Parameter "#1" is not set [90012-220]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:658)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.ParameterRemote.checkSet(ParameterRemote.java:48)
+	at org.h2.command.CommandRemote.checkParameters(CommandRemote.java:255)
+	at org.h2.command.CommandRemote.executeUpdate(CommandRemote.java:193)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:209)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:169)
+	at DAOs.Impl.TurnoDAOImpl.modificarTurno(TurnoDAOImpl.java:73)
+	at Servicios.ServicioTurno.modificarTurno(ServicioTurno.java:43)
+	at Main.main(Main.java:47)
+[2023-08-17 12:22:08] [ ERROR] [ServicioTurno:45] Hay un error
+java.lang.Exception: Sucedio un error al modificar
+	at DAOs.Impl.TurnoDAOImpl.modificarTurno(TurnoDAOImpl.java:77)
+	at Servicios.ServicioTurno.modificarTurno(ServicioTurno.java:43)
+	at Main.main(Main.java:47)
+[2023-08-17 12:23:23] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-17 12:23:23] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=2, idOdontologo=5, idPaciente=2, fechaHoraTurno=2023-12-30 13:00:00.0}
+[2023-08-17 12:23:23] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=3, idOdontologo=7, idPaciente=6, fechaHoraTurno=2023-11-21 11:30:00.0}
+[2023-08-17 12:23:23] [ INFO ] [TurnoDAOImpl:58] ID Turno 1 ID Odontologo 2 ID Paciente 3 Fecha y hora de la cita 2023-08-17 15:30:00.0
+[2023-08-17 12:23:23] [ INFO ] [TurnoDAOImpl:58] ID Turno 2 ID Odontologo 5 ID Paciente 2 Fecha y hora de la cita 2023-12-30 13:00:00.0
+[2023-08-17 12:23:23] [ INFO ] [TurnoDAOImpl:58] ID Turno 3 ID Odontologo 7 ID Paciente 6 Fecha y hora de la cita 2023-11-21 11:30:00.0
+[2023-08-17 12:23:23] [ ERROR] [TurnoDAOImpl:76] Se presentó error al modificar los datos 
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "TIMESTAMP to BIGINT"; SQL statement:
+UPDATE TURNOS SET ID_ODONTOLOGO = ?, ID_PACIENTE = ?, FECHA_HORA_TURNO = ? WHERE ID = ? [22018-220]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:518)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.value.Value.getDataConversionError(Value.java:2573)
+	at org.h2.value.Value.convertToBigint(Value.java:1682)
+	at org.h2.value.Value.getLong(Value.java:882)
+	at org.h2.mvstore.db.MVPrimaryIndex.extractPKFromRow(MVPrimaryIndex.java:251)
+	at org.h2.mvstore.db.MVPrimaryIndex.find(MVPrimaryIndex.java:233)
+	at org.h2.mvstore.db.MVDelegateIndex.find(MVDelegateIndex.java:88)
+	at org.h2.index.IndexCursor.find(IndexCursor.java:166)
+	at org.h2.table.TableFilter.next(TableFilter.java:394)
+	at org.h2.command.dml.FilteredDataChangeStatement.nextRow(FilteredDataChangeStatement.java:71)
+	at org.h2.command.dml.Update.update(Update.java:67)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:408)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:191)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:518)
+	at org.h2.engine.SessionRemote.readException(SessionRemote.java:637)
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:606)
+	at org.h2.command.CommandRemote.executeUpdate(CommandRemote.java:227)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:209)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:169)
+	at DAOs.Impl.TurnoDAOImpl.modificarTurno(TurnoDAOImpl.java:73)
+	at Servicios.ServicioTurno.modificarTurno(ServicioTurno.java:43)
+	at Main.main(Main.java:47)
+[2023-08-17 12:23:23] [ ERROR] [ServicioTurno:45] Hay un error
+java.lang.Exception: Sucedio un error al modificar
+	at DAOs.Impl.TurnoDAOImpl.modificarTurno(TurnoDAOImpl.java:77)
+	at Servicios.ServicioTurno.modificarTurno(ServicioTurno.java:43)
+	at Main.main(Main.java:47)
+[2023-08-17 12:24:11] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-17 12:24:11] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=2, idOdontologo=5, idPaciente=2, fechaHoraTurno=2023-12-30 13:00:00.0}
+[2023-08-17 12:24:11] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=3, idOdontologo=7, idPaciente=6, fechaHoraTurno=2023-11-21 11:30:00.0}
+[2023-08-17 12:24:11] [ INFO ] [TurnoDAOImpl:58] ID Turno 1 ID Odontologo 2 ID Paciente 3 Fecha y hora de la cita 2023-08-17 15:30:00.0
+[2023-08-17 12:24:11] [ INFO ] [TurnoDAOImpl:58] ID Turno 2 ID Odontologo 5 ID Paciente 2 Fecha y hora de la cita 2023-12-30 13:00:00.0
+[2023-08-17 12:24:11] [ INFO ] [TurnoDAOImpl:58] ID Turno 3 ID Odontologo 7 ID Paciente 6 Fecha y hora de la cita 2023-11-21 11:30:00.0
+[2023-08-17 12:24:11] [ INFO ] [TurnoDAOImpl:74] Se moficaron los datos del turno con id: 1
+[2023-08-17 12:24:30] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-17 12:24:30] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=2, idOdontologo=5, idPaciente=2, fechaHoraTurno=2023-12-30 13:00:00.0}
+[2023-08-17 12:24:30] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=3, idOdontologo=7, idPaciente=6, fechaHoraTurno=2023-11-21 11:30:00.0}
+[2023-08-17 12:24:30] [ INFO ] [TurnoDAOImpl:58] ID Turno 1 ID Odontologo 2 ID Paciente 3 Fecha y hora de la cita 2023-08-17 15:30:00.0
+[2023-08-17 12:24:30] [ INFO ] [TurnoDAOImpl:58] ID Turno 2 ID Odontologo 5 ID Paciente 2 Fecha y hora de la cita 2023-12-30 13:00:00.0
+[2023-08-17 12:24:30] [ INFO ] [TurnoDAOImpl:58] ID Turno 3 ID Odontologo 7 ID Paciente 6 Fecha y hora de la cita 2023-11-21 11:30:00.0
+[2023-08-17 12:24:30] [ INFO ] [TurnoDAOImpl:74] Se moficaron los datos del turno con id: 1
+[2023-08-17 12:24:30] [ INFO ] [TurnoDAOImpl:87] Se elimino el turno con id: 2
+[2023-08-17 12:31:29] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-17 12:31:37] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-17 12:31:37] [ INFO ] [TurnoDAOImpl:58] ID Turno 1 ID Odontologo 2 ID Paciente 3 Fecha y hora de la cita 2023-08-17 15:30:00.0
+[2023-08-17 12:31:45] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-17 12:31:45] [ INFO ] [TurnoDAOImpl:74] Se moficaron los datos del turno con id: 1
+[2023-08-17 12:31:52] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-17 12:31:52] [ INFO ] [TurnoDAOImpl:87] Se elimino el turno con id: 1
+[2023-08-21 14:40:02] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-21 14:40:02] [ INFO ] [TurnoDAOImpl:87] Se elimino el turno con id: 1
+[2023-08-21 14:40:17] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-21 14:40:17] [ INFO ] [TurnoDAOImpl:87] Se elimino el turno con id: 1
+[2023-08-21 14:40:26] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-21 14:40:26] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=2, idOdontologo=5, idPaciente=2, fechaHoraTurno=2023-12-30 13:00:00.0}
+[2023-08-21 14:40:26] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=3, idOdontologo=7, idPaciente=6, fechaHoraTurno=2023-11-21 11:30:00.0}
+[2023-08-21 14:40:26] [ INFO ] [TurnoDAOImpl:58] ID Turno 1 ID Odontologo 2 ID Paciente 3 Fecha y hora de la cita 2023-08-17 15:30:00.0
+[2023-08-21 14:40:26] [ INFO ] [TurnoDAOImpl:58] ID Turno 2 ID Odontologo 5 ID Paciente 2 Fecha y hora de la cita 2023-12-30 13:00:00.0
+[2023-08-21 14:40:26] [ INFO ] [TurnoDAOImpl:58] ID Turno 3 ID Odontologo 7 ID Paciente 6 Fecha y hora de la cita 2023-11-21 11:30:00.0
+[2023-08-21 14:40:26] [ INFO ] [TurnoDAOImpl:74] Se moficaron los datos del turno con id: 1
+[2023-08-21 14:40:26] [ INFO ] [TurnoDAOImpl:87] Se elimino el turno con id: 2
+[2023-08-21 14:40:26] [ INFO ] [Main:55] se encontro el turno: null
+[2023-08-21 14:41:20] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-21 14:41:20] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=2, idOdontologo=5, idPaciente=2, fechaHoraTurno=2023-12-30 13:00:00.0}
+[2023-08-21 14:41:20] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=3, idOdontologo=7, idPaciente=6, fechaHoraTurno=2023-11-21 11:30:00.0}
+[2023-08-21 14:41:20] [ INFO ] [TurnoDAOImpl:58] ID Turno 1 ID Odontologo 2 ID Paciente 3 Fecha y hora de la cita 2023-08-17 15:30:00.0
+[2023-08-21 14:41:20] [ INFO ] [TurnoDAOImpl:58] ID Turno 2 ID Odontologo 5 ID Paciente 2 Fecha y hora de la cita 2023-12-30 13:00:00.0
+[2023-08-21 14:41:20] [ INFO ] [TurnoDAOImpl:58] ID Turno 3 ID Odontologo 7 ID Paciente 6 Fecha y hora de la cita 2023-11-21 11:30:00.0
+[2023-08-21 14:41:20] [ INFO ] [TurnoDAOImpl:74] Se moficaron los datos del turno con id: 1
+[2023-08-21 14:41:20] [ INFO ] [TurnoDAOImpl:87] Se elimino el turno con id: 2
+[2023-08-21 14:41:20] [ INFO ] [Main:55] se encontro el turno: null
+[2023-08-21 14:42:05] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=1, idOdontologo=2, idPaciente=3, fechaHoraTurno=2023-08-17 15:30:00.0}
+[2023-08-21 14:42:05] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=2, idOdontologo=5, idPaciente=2, fechaHoraTurno=2023-12-30 13:00:00.0}
+[2023-08-21 14:42:05] [ INFO ] [TurnoDAOImpl:43] Se creo un TurnoTurno{id=3, idOdontologo=7, idPaciente=6, fechaHoraTurno=2023-11-21 11:30:00.0}
+[2023-08-21 14:42:05] [ INFO ] [TurnoDAOImpl:58] ID Turno 1 ID Odontologo 2 ID Paciente 3 Fecha y hora de la cita 2023-08-17 15:30:00.0
+[2023-08-21 14:42:05] [ INFO ] [TurnoDAOImpl:58] ID Turno 2 ID Odontologo 5 ID Paciente 2 Fecha y hora de la cita 2023-12-30 13:00:00.0
+[2023-08-21 14:42:05] [ INFO ] [TurnoDAOImpl:58] ID Turno 3 ID Odontologo 7 ID Paciente 6 Fecha y hora de la cita 2023-11-21 11:30:00.0
+[2023-08-21 14:42:05] [ INFO ] [TurnoDAOImpl:74] Se moficaron los datos del turno con id: 1
+[2023-08-21 14:42:05] [ INFO ] [TurnoDAOImpl:87] Se elimino el turno con id: 2
+[2023-08-21 14:42:05] [ INFO ] [Main:55] se encontro el turno: Turno{id=1, idOdontologo=6, idPaciente=6, fechaHoraTurno=2023-11-21 11:30:00.0}

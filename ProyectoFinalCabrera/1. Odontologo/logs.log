@@ -1,0 +1,91 @@
+[2023-08-15 10:48:16] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=1, matricula=1010, nombre='Manuela', apellido='Ortiz'}
+[2023-08-15 10:48:16] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=2, matricula=1254, nombre='Daniel', apellido='Florez'}
+[2023-08-15 10:48:16] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=3, matricula=3654, nombre='Cristian', apellido='Lopez'}
+[2023-08-15 10:48:16] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=4, matricula=7889, nombre='Luciano', apellido='Menendez'}
+[2023-08-15 10:48:16] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 1 Matricula 1010 Nombre Manuela Apellido Ortiz
+[2023-08-15 10:48:16] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 2 Matricula 1254 Nombre Daniel Apellido Florez
+[2023-08-15 10:48:16] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 3 Matricula 3654 Nombre Cristian Apellido Lopez
+[2023-08-15 10:48:16] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 4 Matricula 7889 Nombre Luciano Apellido Menendez
+[2023-08-15 12:23:30] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=1, matricula=1010, nombre='Manuela', apellido='Ortiz'}
+[2023-08-15 12:23:30] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=2, matricula=1254, nombre='Daniel', apellido='Florez'}
+[2023-08-15 12:23:30] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=3, matricula=3654, nombre='Cristian', apellido='Lopez'}
+[2023-08-15 12:23:30] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=4, matricula=7889, nombre='Luciano', apellido='Menendez'}
+[2023-08-15 12:23:30] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 1 Matricula 1010 Nombre Manuela Apellido Ortiz
+[2023-08-15 12:23:30] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 2 Matricula 1254 Nombre Daniel Apellido Florez
+[2023-08-15 12:23:30] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 3 Matricula 3654 Nombre Cristian Apellido Lopez
+[2023-08-15 12:23:30] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 4 Matricula 7889 Nombre Luciano Apellido Menendez
+[2023-08-15 12:23:30] [ INFO ] [OdontologoDAOImpl:75] Se moficaron los datos del odontologo con id: 1
+[2023-08-15 12:23:30] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 1 Matricula 0 Nombre Maureen Apellido Ortiz
+[2023-08-15 12:23:30] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 2 Matricula 1254 Nombre Daniel Apellido Florez
+[2023-08-15 12:23:30] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 3 Matricula 3654 Nombre Cristian Apellido Lopez
+[2023-08-15 12:23:30] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 4 Matricula 7889 Nombre Luciano Apellido Menendez
+[2023-08-15 12:23:30] [ INFO ] [OdontologoDAOImpl:89] Se elimino el odontologo con id: 2
+[2023-08-15 12:23:30] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 1 Matricula 0 Nombre Maureen Apellido Ortiz
+[2023-08-15 12:23:30] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 3 Matricula 3654 Nombre Cristian Apellido Lopez
+[2023-08-15 12:23:31] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 4 Matricula 7889 Nombre Luciano Apellido Menendez
+[2023-08-15 12:31:36] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=1, matricula=1010, nombre='Manuela', apellido='Ortiz'}
+[2023-08-15 12:31:36] [ INFO ] [OdontologoDAOImpl:75] Se moficaron los datos del odontologo con id: 1
+[2023-08-15 12:31:56] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=1, matricula=1010, nombre='Manuela', apellido='Ortiz'}
+[2023-08-15 12:31:56] [ INFO ] [OdontologoDAOImpl:75] Se moficaron los datos del odontologo con id: 1
+[2023-08-15 12:42:37] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=1, matricula=1010, nombre='Manuela', apellido='Ortiz'}
+[2023-08-15 12:42:37] [ INFO ] [OdontologoDAOImpl:75] Se moficaron los datos del odontologo con id: 1
+[2023-08-15 12:43:52] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=1, matricula=1010, nombre='Manuela', apellido='Ortiz'}
+[2023-08-15 12:43:52] [ INFO ] [OdontologoDAOImpl:89] Se elimino el odontologo con id: 1
+[2023-08-15 14:17:10] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=1, matricula=1010, nombre='Manuela', apellido='Ortiz'}
+[2023-08-15 14:17:10] [ INFO ] [OdontologoDAOImpl:89] Se elimino el odontologo con id: 1
+[2023-08-15 14:17:25] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=1, matricula=1010, nombre='Manuela', apellido='Ortiz'}
+[2023-08-15 14:17:25] [ INFO ] [OdontologoDAOImpl:89] Se elimino el odontologo con id: 1
+[2023-08-15 14:17:36] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=1, matricula=1010, nombre='Manuela', apellido='Ortiz'}
+[2023-08-15 14:17:36] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=2, matricula=1254, nombre='Daniel', apellido='Florez'}
+[2023-08-15 14:17:36] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=3, matricula=3654, nombre='Cristian', apellido='Lopez'}
+[2023-08-15 14:17:36] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=4, matricula=7889, nombre='Luciano', apellido='Menendez'}
+[2023-08-15 14:17:36] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 1 Matricula 1010 Nombre Manuela Apellido Ortiz
+[2023-08-15 14:17:36] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 2 Matricula 1254 Nombre Daniel Apellido Florez
+[2023-08-15 14:17:36] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 3 Matricula 3654 Nombre Cristian Apellido Lopez
+[2023-08-15 14:17:36] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 4 Matricula 7889 Nombre Luciano Apellido Menendez
+[2023-08-15 14:17:36] [ INFO ] [OdontologoDAOImpl:75] Se moficaron los datos del odontologo con id: 1
+[2023-08-15 14:17:36] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 1 Matricula 0 Nombre Maureen Apellido Ortiz
+[2023-08-15 14:17:36] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 2 Matricula 1254 Nombre Daniel Apellido Florez
+[2023-08-15 14:17:36] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 3 Matricula 3654 Nombre Cristian Apellido Lopez
+[2023-08-15 14:17:36] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 4 Matricula 7889 Nombre Luciano Apellido Menendez
+[2023-08-15 14:17:36] [ INFO ] [OdontologoDAOImpl:89] Se elimino el odontologo con id: 2
+[2023-08-15 14:17:36] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 1 Matricula 0 Nombre Maureen Apellido Ortiz
+[2023-08-15 14:17:36] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 3 Matricula 3654 Nombre Cristian Apellido Lopez
+[2023-08-15 14:17:36] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 4 Matricula 7889 Nombre Luciano Apellido Menendez
+[2023-08-21 14:47:40] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=1, matricula=1010, nombre='Manuela', apellido='Ortiz'}
+[2023-08-21 14:47:40] [ INFO ] [OdontologoDAOImpl:75] Se moficaron los datos del odontologo con id: 1
+[2023-08-21 14:47:53] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=1, matricula=1010, nombre='Manuela', apellido='Ortiz'}
+[2023-08-21 14:47:53] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=2, matricula=1254, nombre='Daniel', apellido='Florez'}
+[2023-08-21 14:47:53] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=3, matricula=3654, nombre='Cristian', apellido='Lopez'}
+[2023-08-21 14:47:53] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=4, matricula=7889, nombre='Luciano', apellido='Menendez'}
+[2023-08-21 14:47:53] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 1 Matricula 1010 Nombre Manuela Apellido Ortiz
+[2023-08-21 14:47:53] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 2 Matricula 1254 Nombre Daniel Apellido Florez
+[2023-08-21 14:47:53] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 3 Matricula 3654 Nombre Cristian Apellido Lopez
+[2023-08-21 14:47:53] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 4 Matricula 7889 Nombre Luciano Apellido Menendez
+[2023-08-21 14:47:53] [ INFO ] [OdontologoDAOImpl:75] Se moficaron los datos del odontologo con id: 1
+[2023-08-21 14:47:53] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 1 Matricula 1189 Nombre Lucia Apellido Meneses
+[2023-08-21 14:47:53] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 2 Matricula 1254 Nombre Daniel Apellido Florez
+[2023-08-21 14:47:53] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 3 Matricula 3654 Nombre Cristian Apellido Lopez
+[2023-08-21 14:47:53] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 4 Matricula 7889 Nombre Luciano Apellido Menendez
+[2023-08-21 14:47:53] [ INFO ] [OdontologoDAOImpl:88] Se elimino el odontologo con id: 2
+[2023-08-21 14:47:53] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 1 Matricula 1189 Nombre Lucia Apellido Meneses
+[2023-08-21 14:47:53] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 3 Matricula 3654 Nombre Cristian Apellido Lopez
+[2023-08-21 14:47:53] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 4 Matricula 7889 Nombre Luciano Apellido Menendez
+[2023-08-21 14:53:56] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=1, matricula=1010, nombre='Manuela', apellido='Ortiz'}
+[2023-08-21 14:53:56] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=2, matricula=1254, nombre='Daniel', apellido='Florez'}
+[2023-08-21 14:53:56] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=3, matricula=3654, nombre='Cristian', apellido='Lopez'}
+[2023-08-21 14:53:56] [ INFO ] [OdontologoDAOImpl:42] Se creo un odontologoOdontologo{id=4, matricula=7889, nombre='Luciano', apellido='Menendez'}
+[2023-08-21 14:53:56] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 1 Matricula 1010 Nombre Manuela Apellido Ortiz
+[2023-08-21 14:53:56] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 2 Matricula 1254 Nombre Daniel Apellido Florez
+[2023-08-21 14:53:56] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 3 Matricula 3654 Nombre Cristian Apellido Lopez
+[2023-08-21 14:53:56] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 4 Matricula 7889 Nombre Luciano Apellido Menendez
+[2023-08-21 14:53:56] [ INFO ] [OdontologoDAOImpl:75] Se moficaron los datos del odontologo con id: 1
+[2023-08-21 14:53:56] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 1 Matricula 1189 Nombre Lucia Apellido Meneses
+[2023-08-21 14:53:56] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 2 Matricula 1254 Nombre Daniel Apellido Florez
+[2023-08-21 14:53:56] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 3 Matricula 3654 Nombre Cristian Apellido Lopez
+[2023-08-21 14:53:56] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 4 Matricula 7889 Nombre Luciano Apellido Menendez
+[2023-08-21 14:53:56] [ INFO ] [OdontologoDAOImpl:88] Se elimino el odontologo con id: 2
+[2023-08-21 14:53:56] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 1 Matricula 1189 Nombre Lucia Apellido Meneses
+[2023-08-21 14:53:56] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 3 Matricula 3654 Nombre Cristian Apellido Lopez
+[2023-08-21 14:53:56] [ INFO ] [OdontologoDAOImpl:56] ID Odontologo 4 Matricula 7889 Nombre Luciano Apellido Menendez
+[2023-08-21 14:53:56] [ INFO ] [Main:49] se encontro el odontologo: Odontologo{id=1, matricula=1189, nombre='Lucia', apellido='Meneses'}
